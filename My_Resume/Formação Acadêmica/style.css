@@ -1,0 +1,52 @@
+:root{
+    --first-color: #586994;
+    --second-color: #7d869c;
+    --third-color: #a2abab;
+    --fourth-color: #b4c4ae;
+    --fifth-color: #e5e8b6;
+    --font-color: black;
+}
+
+* {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--fifth-color);
+}
+
+nav {
+    margin-top: 2%;
+    font-size: larger;
+}
+
+a {
+    color: var(--font-color) !important;
+}
+
+a i {
+    font-size: xx-large;
+    color: var(--font-color);
+    padding-right: 3%;
+}
+
+table {
+    width: 90%;        
+    color: var(--font-color);
+}
+
+.meio{
+    width: 50%;
+}
+
+.start {
+    padding: 10%;
+    padding-top: 3%;
+}
+
+@media (max-width: 768px) {
+  /* Estilos aplicados para versões mobile */
+    a i {
+    font-size: large;
+  }
+
+  
+}
