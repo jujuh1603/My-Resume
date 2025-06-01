@@ -39,7 +39,149 @@ table {
 
 .start {
     padding: 10%;
+    margin-top: -4%;
+}
+
+.two {
+    margin-top: -15%;
+}
+
+.skills {
+    padding: 10%;
     padding-top: 3%;
+}
+
+.start h1, .skills h1 {
+    color: var(--first-color);
+    font-weight: 600;
+}
+
+.wave {
+    margin-top: -11%;
+}
+
+.skills h1 {
+    text-align: center;
+}
+
+.col-md-6 h3 {
+    color: var(--first-color);
+}
+
+.fa-html5 {
+    color: orangered;
+    font-size: 300%;
+}
+
+.fa-css3-alt {
+    color:rgb(19, 82, 145);
+    font-size: 300%;
+}
+
+.fa-square-js {
+    color: rgb(230, 187, 0);
+    font-size: 300%;
+}
+
+.fa-figma {
+    color: darkslategray;
+    font-size: 240%;
+}
+
+.fa-php {
+    color: #586994;
+    font-size: 260%;
+}
+
+.fa-react {
+    color: aqua;
+    font-size: 290%;
+}
+
+.fa-python {
+    color: cadetblue;
+    font-size: 300%;
+}
+
+.fa-node-js {
+    color: green;
+    font-size: 270%;
+}
+
+.fa-solid {
+    color: darkgoldenrod;
+    font-size: 260%;
+}
+
+.fa-file-excel {
+    color: darkgreen;
+    font-size: 250%;
+}
+
+.space {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    width: 75%;
+    padding: 0.7%;
+    margin-top: -7%;
+}
+
+.html, .css {
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.html {
+    background-color: orangered;
+}
+
+.css {
+    background-color: rgb(19, 82, 145);
+}
+
+.js {
+    background-color: rgb(230, 187, 0);
+}
+
+.figma {
+    background-color: darkslategray;
+}
+
+.php {
+    width: 75%;
+    margin-left: -0.3% !important;
+    background-color: #586994;
+}
+
+.react {
+    width: 50%;
+    margin-left: -0% !important;
+    background-color: aquamarine;
+}
+
+.python {
+    width: 30%;
+    margin-left: -0.1% !important;
+    background-color: cadetblue;
+}
+
+.node {
+    width: 40%;
+    margin-left: -0.1%;
+    background-color: green;
+}
+
+.BI {
+    width: 45%;
+    margin-left: -0.1%;
+    background-color: darkgoldenrod;
+}
+
+.excel {
+    width: 90%;
+    margin-left: -0.1%;
+    background-color: darkgreen;
 }
 
 @media (max-width: 768px) {
